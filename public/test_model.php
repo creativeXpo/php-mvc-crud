@@ -8,9 +8,9 @@ $student = new Student();
 // $student->create("Golam Kibria", "golam@example.com", "01700000000", "Web Development");
 
 // ✅ Test 2: Get all students
-// $data = $student->getAll();
-// echo "<pre>";
-// print_r($data);
+$data = $student->getAll();
+echo "<pre>";
+print_r($data);
 
 // ✅ Test 3: Get by ID
 // $single = $student->getById(9);
