@@ -1,0 +1,6 @@
+# Deny direct access to core folders
+RedirectMatch 403 ^/app/
+RedirectMatch 403 ^/config/
+RedirectMatch 403 ^/models/
+RedirectMatch 403 ^/controllers/
+RedirectMatch 403 ^/vendor/
